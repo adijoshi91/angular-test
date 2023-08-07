@@ -2,19 +2,22 @@
     display: flex;
     flex-direction: row;
     height: 100vh;
-    /* min-height: calc(100vh - HEADER_HEIGHT - FOOTER_HEIGHT); Replace with actual values */
+    background-color: #f9f9f9;
   }
   
   .app-sidenav {
-    width: 200px; /* Set according to your needs */
+    width: 200px;
   }
   
   .content {
     flex-grow: 1;
     padding: 20px;
-    /* background-color: #f9f9f9; */
   }
   
   .align-content{
     display: flex;justify-content: space-between ;padding-right: 5%;
+  }
+
+  .adjust-buttons{
+    display: flex; padding-left: 30%;padding-top: 18%
   }

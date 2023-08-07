@@ -8,6 +8,7 @@ import { SideNavComponent } from './side-nav/side-nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { LandingContentComponent } from './landing-content/landing-content.component';
 import { CounterBtnComponent } from './counter-btn/counter-btn.component';
+import { ChangeColorDirective } from './change-color.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CounterBtnComponent } from './counter-btn/counter-btn.component';
     SideNavComponent,
     FooterComponent,
     LandingContentComponent,
-    CounterBtnComponent
+    CounterBtnComponent,
+    ChangeColorDirective
   ],
   imports: [
     BrowserModule,
